@@ -12,7 +12,7 @@ namespace cowsay
             string line2;
             if (say.Length <= 38)
             {
-                line1 = say.PadRight(8);
+                line1 = say.PadRight(38);
                 line2 = "".PadRight(38);
             } else
             {
